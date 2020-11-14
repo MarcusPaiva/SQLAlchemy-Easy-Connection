@@ -7,6 +7,12 @@ My intention is to facilitate the connection to the database using SQLAlchemy, d
 
 Suggestions, improvements and contact, I am available at email: 'marcus.paiva.ti@gmail.com'.
 
+## How to install?
+You can install using the following command:
+```
+pip install SQLAlchemy-Easy-Connection
+```
+
 ## Simple usage example
 ```
 from SQLAlchemyEasyConnection.EasyConnections import EasyConnection  # Using this package we use to connect into database

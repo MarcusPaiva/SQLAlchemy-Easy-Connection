@@ -27,10 +27,10 @@ class EasyConnection:
         :param pool_recycle: int: Number of seconds after which a connection is automatically recycled.
         :return:
         """
-        if isinstance(type_database, str) and isinstance(user, str) and isinstance(password, str) and isinstance(host,
-                                                                                                                 str) and isinstance(
-                port, str) and isinstance(database, str) and isinstance(sqlite_check_same_thread, bool) and isinstance(
-                pool_size, int) and isinstance(max_overflow, int) and isinstance(pool_size, int):
+        if isinstance(type_database, str) and isinstance(user, str) and isinstance(password, str) \
+                and isinstance(host, str) and isinstance(port, str) and isinstance(database, str) \
+                and isinstance(sqlite_check_same_thread, bool) and isinstance(pool_size, int) \
+                and isinstance(max_overflow, int) and isinstance(pool_size, int):
             connection_string = Utilities.generate_connection_string(type_database=type_database, user=user,
                                                                      password=password, host=host, port=port,
                                                                      database=database)
